@@ -1,7 +1,11 @@
 {
     "env": {
+        "mocha":true,
         "browser": true,
         "es6": true
+    },
+    "globals": {
+        "expect": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
