@@ -36,6 +36,7 @@ Why is this different from the work flow with a module bundler (i.e. Webpack)?
 
 - [A simple set up](https://github.com/turingschool-examples/unit-testing-client-side-storage/compare/browser-tests)
 - [Implementation 1](https://github.com/turingschool-examples/unit-testing-client-side-storage/compare/browser-implementation-1)
+- [Implementation 2](https://github.com/turingschool-examples/unit-testing-client-side-storage/compare/browser-implementation-2)
 
 ### Running in the Terminal
 
