@@ -7,7 +7,7 @@ var highScore = 0;
 
 scoreButton.addEventListener('click', function(){
   var score = generateScore();
-  highScore = calculateHighScore(score);
+  highScore = calculateHighScore(score, highScore);
   if(score === highScore)
     addHighScoreToPage(highScore);
 }, false);
@@ -17,10 +17,6 @@ submitButton.addEventListener('click', function(){
   var name = nameInput.value;
   submitHighScore(name,score);
 });
-
-function calculateHighScore(score){
-  return Math.max(score, highScore);
-}
 
 function addHighScoreToPage(score){
   var scoreItem = document.createElement('li');
