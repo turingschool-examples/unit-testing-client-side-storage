@@ -2,7 +2,7 @@ var scoreButton = document.getElementById('score-button');
 var highScoreList = document.getElementById('high-scores');
 var nameInput = document.getElementById('name-field');
 var submitButton = document.getElementById('score-submit');
-var allTimeHighScores = document.getElementById('all-time-scores-table')
+var allTimeHighScores = document.getElementById('all-time-scores-table');
 var highScore = 0;
 
 scoreButton.addEventListener('click', function(){
@@ -16,7 +16,7 @@ submitButton.addEventListener('click', function(){
   var score = getHighestScore();
   var name = nameInput.value;
   submitHighScore(name,score);
-})
+});
 
 function calculateHighScore(score){
   return Math.max(score, highScore);
@@ -48,5 +48,5 @@ function getHighestScore(){
 }
 
 function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
