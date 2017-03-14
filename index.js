@@ -25,13 +25,7 @@ function addHighScoreToPage(score){
 }
 
 function submitHighScore(name, score){
-  var newRow = document.createElement('tr');
-  var nameCell = document.createElement('td');
-  nameCell.innerText = name;
-  var scoreCell = document.createElement('td');
-  scoreCell.innerText = score;
-  newRow.appendChild(nameCell);
-  newRow.appendChild(scoreCell);
+  var newRow = highScoreTemplate(name, score);
   allTimeHighScores.appendChild(newRow);
 }
 
