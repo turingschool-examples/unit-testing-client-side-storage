@@ -34,7 +34,7 @@ Why is this different from the work flow with a module bundler (i.e. Webpack)?
 
 ### Running in the Browser
 
-- [A simple set up]()
+- [A simple set up](https://github.com/turingschool-examples/unit-testing-client-side-storage/tree/browser-tests)
 - [Kicking the tires with a test]()
 
 ### Running in the Terminal
