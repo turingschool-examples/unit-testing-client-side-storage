@@ -1,5 +1,7 @@
 # Unit Test Me!
 
+## Intro (5 minutes)
+
 This unit testing lesson is based off of an existing example repo: [Example Repo](https://github.com/turingschool-examples/client-side-storage).
 
 The challenge here is to work under the following constraints:
@@ -20,17 +22,33 @@ By the end of this lesson, you should be able to:
     - What a unit test is
     - How to think about testable JavaScript code
 
-## How Should We Think About Unit Testing?
+## How Should We Think About Unit Testing? (20 minutes)
 
 Reading: [Writing Testable JavaScript](https://alistapart.com/article/writing-testable-javascript)
 
-## Activity
+After 15 minutes, turn to the person next to you and compare/discuss interesting parts of the reading
 
-See Print Outs
+## Activity (25 minutes)
 
-## Unit Testing Client-Side Code
+- [Print Out 1](https://gist.github.com/rrgayhart/2aec7614cd91e1ea01780c9bbdb40d39)
+- [Print Out 2](https://raw.githubusercontent.com/sikemausa/idea-box/gh-pages/script.js)
 
-Why is this different from the work flow with a module bundler (i.e. Webpack)?
+Using the code types from Murphy's article:
+
+- Presentation and interaction
+- Data management and persistence
+- Overall application state
+- Setup and glue code to make the pieces work together
+
+Go through this ideabox implementation and take a first pass at highlighting the pieces you think belong to those certain sections.
+
+After 10 minutes, turn to the person next to you and compare/discuss results.
+
+## Unit Testing Client-Side Code (10 mins)
+
+Ask yourself: what difficulties would you have testing client-side code without a module bundler (i.e. Webpack)?
+
+Check out the following examples of different ways to unit test the same codebase.
 
 ### Running in the Browser
 
