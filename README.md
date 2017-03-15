@@ -40,7 +40,7 @@ Why is this different from the work flow with a module bundler (i.e. Webpack)?
 
 ### Running in the Terminal
 
-- [A basic`module.exports` way]()
+- [A basic`module.exports` way](https://github.com/turingschool-examples/unit-testing-client-side-storage/compare/module-exports)
 - [A more advanced implementation]()
 - [An even more advanced implementation]()
 
