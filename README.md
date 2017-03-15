@@ -41,9 +41,13 @@ Why is this different from the work flow with a module bundler (i.e. Webpack)?
 ### Running in the Terminal
 
 - [A basic`module.exports` way](https://github.com/turingschool-examples/unit-testing-client-side-storage/compare/module-exports)
-- [A more advanced implementation]()
-- [An even more advanced implementation]()
 
 Is this solution used?
 
 [Yes](https://github.com/jashkenas/underscore/blob/a9432276b90bd23d3022deb89ac1ba6b10ee7495/test/vendor/qunit.js#L1947) & also [yes](https://github.com/jashkenas/underscore/blob/e944e0275abb3e1f366417ba8facb5754a7ad273/underscore.js#L53)
+
+### Resources
+
+Need to use the document in a test?
+
+Check out `mocha-jsdom`: https://www.npmjs.com/package/mocha-jsdom
