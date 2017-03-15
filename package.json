@@ -1,0 +1,27 @@
+{
+  "name": "unit-testing-client-side-storage",
+  "version": "1.0.0",
+  "description": "This unit testing lesson is based off of an existing example repo: [Example Repo](https://github.com/turingschool-examples/client-side-storage).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./test/**.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turingschool-examples/unit-testing-client-side-storage.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingschool-examples/unit-testing-client-side-storage/issues"
+  },
+  "homepage": "https://github.com/turingschool-examples/unit-testing-client-side-storage#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jquery": "^3.1.1",
+    "mocha": "^3.2.0"
+  }
+}

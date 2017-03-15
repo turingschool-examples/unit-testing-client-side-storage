@@ -1,3 +1,7 @@
+var expect = require('chai').expect;
+
+var calculateHighScore = require('../calculateHighScore');
+
 describe('calculateHighScore', function(){
   it('returns a highScore', function(){
     expect(calculateHighScore(1, 2)).to.equal(2);
